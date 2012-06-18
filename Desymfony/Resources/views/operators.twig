@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Plantilla básica de prueba</title>
+    </head>
+
+    <body>
+        {% filter upper %}
+            Hoy es {{ 'now'|date }}
+        {% endfilter %}
+
+        {% set numeros = 0..9 %}
+        {% for i in numeros %}
+            {{ i }},
+        {% endfor %}
+
+        Recorrer las claves de una secuencia:
+        {% for i in <->('a'..'z') %}
+            {{ i }},
+        {% endfor %}
+
+        ¿Cuál es mayor? {{ 5 >> 2 }}
+        ¿Cuál es mayor? {{ 4 >> 20 }}
+
+        ¿Cuál es menor? {{ 5 << 2 }}
+        ¿Cuál es menor? {{ 4 << 20 }}        
+    </body>
+</html>

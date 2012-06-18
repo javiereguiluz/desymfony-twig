@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Plantilla básica de prueba</title>
+    </head>
+
+    <body>
+        {% filter upper %}
+            Hoy es {{ 'now'|date }}
+        {% endfilter %}
+
+        {% set numeros = 0..9 %}
+        {% for i in numeros %}
+            {{ i }},
+        {% endfor %}
+    </body>
+</html>
