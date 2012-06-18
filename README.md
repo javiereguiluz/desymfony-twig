@@ -1,6 +1,6 @@
 Este repositorio contiene el código de los ejemplos más complejos que se mostraron
-durante la ponencia *Twig, los mejores trucos y técnicas avanzadas* en la
-conferencia **deSymfony 2012**.
+durante la ponencia *[Twig, los mejores trucos y técnicas avanzadas](http://www.symfony.es/2012/06/17/desymfony2012-twig-los-mejores-trucos-y-tecnicas-avanzadas/)*
+en la conferencia **deSymfony 2012**.
 
 ## Instalación ##
 
@@ -13,4 +13,4 @@ conferencia **deSymfony 2012**.
 Para probar cada ejemplo, ejecuta en una consola de comandos el archivo `index.php`
 de cada directorio. Ejemplo:
 
-    `$ php Desymfony/Sandbox/index.php`
+    $ php Desymfony/Sandbox/index.php
